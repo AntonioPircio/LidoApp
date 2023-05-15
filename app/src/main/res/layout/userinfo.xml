@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0A0A"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    tools:context="com.unimol.lidoapp.UI.UserInfo">
+
+
+    <TextView
+        android:id="@+id/userDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="513dp"
+        android:background="@color/black"
+        android:scrollbarThumbVertical="@android:color/holo_red_dark"
+        android:scrollbars="vertical"
+        android:textColor="#C62020" />
+
+
+    <Button
+        android:id="@+id/userInfoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#BF1B1B"
+        android:text="VEDI INFO"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>

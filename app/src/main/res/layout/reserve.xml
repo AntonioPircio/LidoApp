@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#100F0F"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    tools:context="com.unimol.lidoapp.UI.Reserve">
+
+
+    <EditText
+        android:id="@+id/ID_Umbrella"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C62020"
+        android:hint="ID_Ombrellone"
+        android:textColorHint="#C62020"
+        android:textColor="#C62020"/>
+
+    <Button
+        android:id="@+id/reserveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#BF1B1B"
+        android:text="Prenota"
+        android:textColor="@color/black" />
+
+</LinearLayout>

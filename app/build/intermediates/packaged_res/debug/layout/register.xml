@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121111"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    tools:context="com.unimol.lidoapp.UI.Register">
+
+    <EditText
+        android:id="@+id/nameBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C62020"
+        android:hint="Nome"
+        android:textColorHint="#C62020"
+        android:textColor="#C62020"/>
+
+    <EditText
+        android:id="@+id/surnameBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cognome"
+        android:backgroundTint="#C62020"
+        android:textColorHint="#C62020"
+        android:textColor="#C62020"/>
+
+    <EditText
+        android:id="@+id/mailBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:backgroundTint="#C62020"
+        android:textColorHint="#C62020"
+        android:textColor="#C62020"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:backgroundTint="#C62020"
+        android:textColorHint="#C62020"
+        app:endIconMode="password_toggle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordBox"
+            style="@style/Theme.MaterialComponents.Light.Dialog.MinWidth.Bridge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#C62020"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="REGISTRATI"
+        android:backgroundTint="#BF1B1B"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/loginLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="VAI A LOGIN"
+        android:textColor="#C62020"
+        android:textSize="20dp" />
+</LinearLayout>

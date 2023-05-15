@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/prenota"
+        android:title="PRENOTA">
+    </item>
+    <item
+        android:id="@+id/userinfo"
+        android:title="INFORMAZIONI UTENTE">
+    </item>
+    <item
+        android:id="@+id/deletereservation"
+        android:title="CANCELLA PRENOTAZIONE">
+    </item>
+    <item
+        android:id="@+id/deleteuser"
+        android:title="CANCELLA ACCOUNT">
+    </item>
+    <item
+        android:id="@+id/home"
+        android:title="HOME">
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:title="ESCI"
+        >
+    </item>
+</menu>

@@ -1,0 +1,151 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unimol.lidoapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:6:5-66
+11-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:7:5-75
+12-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:7:22-73
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:8:5-78
+13-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:8:22-76
+14
+15    <application
+15-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:9:5-54:19
+16        android:allowBackup="true"
+16-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.8.0] /home/antonio/.gradle/caches/transforms-3/cd33f26b4f6a5be75c2c675ec5e179dc/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+18        android:dataExtractionRules="@xml/data_extraction_rules"
+18-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:11:9-65
+19        android:debuggable="true"
+20        android:fullBackupContent="@xml/backup_rules"
+20-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:12:9-54
+21        android:icon="@mipmap/ombrelloni"
+21-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:13:9-42
+22        android:label="@string/app_name"
+22-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:14:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:15:9-54
+24        android:supportsRtl="true"
+24-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.LidoApp"
+26-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:17:9-45
+27        android:usesCleartextTraffic="true" >
+27-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:18:9-44
+28        <activity
+28-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:20:9-26:20
+29            android:name="com.unimol.lidoapp.UI.Login"
+29-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:20:19-43
+30            android:exported="true" >
+30-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:21:13-36
+31            <intent-filter>
+31-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:22:13-25:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:23:17-69
+32-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:23:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:24:17-77
+34-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:24:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:27:9-29:20
+38            android:name="com.unimol.lidoapp.UI.Register"
+38-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:27:19-46
+39            android:exported="true" >
+39-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:28:13-36
+40        </activity>
+41        <activity
+41-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:30:9-32:20
+42            android:name="com.unimol.lidoapp.UI.Home"
+42-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:30:19-42
+43            android:exported="true" >
+43-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:31:13-36
+44        </activity>
+45        <activity
+45-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:33:9-35:20
+46            android:name="com.unimol.lidoapp.UI.Reserve"
+46-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:33:19-45
+47            android:exported="true" >
+47-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:34:13-36
+48        </activity>
+49        <activity
+49-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:36:9-38:20
+50            android:name="com.unimol.lidoapp.UI.UserInfo"
+50-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:36:19-46
+51            android:exported="true" >
+51-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:37:13-36
+52        </activity>
+53        <activity
+53-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:39:9-41:20
+54            android:name="com.unimol.lidoapp.UI.DeleteUser"
+54-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:39:19-48
+55            android:exported="true" >
+55-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:40:13-36
+56        </activity>
+57        <activity
+57-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:42:9-44:20
+58            android:name="com.unimol.lidoapp.UI.DeleteReservation"
+58-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:42:19-55
+59            android:exported="true" >
+59-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:43:13-36
+60        </activity>
+61        <activity
+61-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:45:9-47:20
+62            android:name="com.unimol.lidoapp.UI.ForgotPassword"
+62-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:45:19-52
+63            android:exported="true" >
+63-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:46:13-36
+64        </activity>
+65        <activity
+65-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:48:9-50:20
+66            android:name="com.unimol.lidoapp.UI.ValidateOTP"
+66-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:48:19-49
+67            android:exported="true" >
+67-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:49:13-36
+68        </activity>
+69        <activity
+69-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:51:9-53:20
+70            android:name="com.unimol.lidoapp.UI.ChangePassword"
+70-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:51:19-52
+71            android:exported="true" >
+71-->/home/antonio/AndroidStudioProjects/LidoApp/app/src/main/AndroidManifest.xml:52:13-36
+72        </activity>
+73
+74        <provider
+74-->[androidx.emoji2:emoji2:1.2.0] /home/antonio/.gradle/caches/transforms-3/112a099502228b2b317b1c79d5f085b0/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+75            android:name="androidx.startup.InitializationProvider"
+75-->[androidx.emoji2:emoji2:1.2.0] /home/antonio/.gradle/caches/transforms-3/112a099502228b2b317b1c79d5f085b0/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+76            android:authorities="com.unimol.lidoapp.androidx-startup"
+76-->[androidx.emoji2:emoji2:1.2.0] /home/antonio/.gradle/caches/transforms-3/112a099502228b2b317b1c79d5f085b0/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+77            android:exported="false" >
+77-->[androidx.emoji2:emoji2:1.2.0] /home/antonio/.gradle/caches/transforms-3/112a099502228b2b317b1c79d5f085b0/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+78            <meta-data
+78-->[androidx.emoji2:emoji2:1.2.0] /home/antonio/.gradle/caches/transforms-3/112a099502228b2b317b1c79d5f085b0/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+79-->[androidx.emoji2:emoji2:1.2.0] /home/antonio/.gradle/caches/transforms-3/112a099502228b2b317b1c79d5f085b0/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+80                android:value="androidx.startup" />
+80-->[androidx.emoji2:emoji2:1.2.0] /home/antonio/.gradle/caches/transforms-3/112a099502228b2b317b1c79d5f085b0/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+81            <meta-data
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/antonio/.gradle/caches/transforms-3/7cfe2704946b18bb678666b3953b74c4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+82                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+82-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/antonio/.gradle/caches/transforms-3/7cfe2704946b18bb678666b3953b74c4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+83                android:value="androidx.startup" />
+83-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/antonio/.gradle/caches/transforms-3/7cfe2704946b18bb678666b3953b74c4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+84        </provider>
+85    </application>
+86
+87</manifest>
