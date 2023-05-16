@@ -1,7 +1,13 @@
 # LidoApp
 Android App which simulates the management of a beach lido. 
 
-Use cases are registration, logging in, account deletion, booking umbrellas and chairs, viewing reservations made, and changing passwords using an email and an OTP. 
+The use cases are:
+-Registration.
+-Logging in. 
+-Account deletion.
+-Booking umbrellas and chairs.
+-Viewing reservations made.
+-Changing passwords using an email and an OTP. 
 
 The application manager will be able to look at each client's reservations.
 
